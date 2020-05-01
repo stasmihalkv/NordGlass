@@ -2,19 +2,19 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NordGlass</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header> 
-        <div class="container ">
+        <div class="container">
             <div class="block_main">
                     <div class="left-menu">
                     <img src="css/header_logo.png" alt="">
@@ -44,7 +44,7 @@
                     </h1>
                 </div> 
             </div>
-            <div class="header_title2">
+            <div class="header__right-title">
                 <h1>
                     Конструкции под ключ
                 </h1>
@@ -57,7 +57,7 @@
                    <li><a href="#">УЛ. МЕНДЕЛЕЕВСКАЯ,<br>ДОМ 5</a></li>
                 </ul>
             </div>
-            <div class="test">
+            <div class="right-menu__button">
                 <button class="header_button">
                     Заказать расчет
                 </button>
@@ -113,13 +113,15 @@
         <h2>
             Изготовление и монтаж конструкций из стекла в Санкт-Петербурге
         </h2>
-    <div class="sl">
-        <img src="css/sl1.png" alt="" class="sl_item">
-        <img src="css/sl2.png" alt="" class="sl_item">
-        <img src="css/sl3.png" alt="" class="sl_item"> 
-    </div>
-        <div class="left_glass"></div>
-        <div class="right_glass"></div>
+        <div class="sl-wrap">
+            <div class="sl">
+                <img src="css/sl1.png" alt="" class="sl_item">
+                <img src="css/sl2.png" alt="" class="sl_item">
+                <img src="css/sl3.png" alt="" class="sl_item"> 
+            </div>
+            <div class="block2__slider-glass"></div>
+            <div class="block2__slider-glass right-glass"></div>
+        </div>
         <button class="block2_button">
             Смотреть все работы
         </button>
@@ -129,52 +131,52 @@
             <h2>
                Наши сертификаты
             </h2>
-            <div class="com">
-            <div class="block3_item">
-                <img src="css/block3_item1.png" alt="Сертификат1" class="img-fluid">
-            </div>
-            <div class="block3_item">
-                <img src="css/block3_item2.png" alt="Сертификат2" class="img-fluid">
-            </div>
-            <div class="block3_item">
-                <img src="css/block3_item3.png" alt="Сертификат3" class="img-fluid">
-            </div>
-            <div class="block3_item">
-                <img src="css/block3_item4.png" alt="Сертификат4" class="img-fluid">
-            </div>
+            <div class="block3-sert">
+                <div class="block3-sert__item">
+                    <img src="css/block3_item1.png" alt="Сертификат1">
+                </div>
+                <div class="block3-sert__item">
+                    <img src="css/block3_item2.png" alt="Сертификат2">
+                </div>
+                <div class="block3-sert__item">
+                    <img src="css/block3_item3.png" alt="Сертификат3">
+                </div>
+                <div class="block3-sert__item">
+                    <img src="css/block3_item4.png" alt="Сертификат4">
+                </div>
             </div>
         </div>
     </div>
-    <div class="block4 container-fluid">
+    <div class="block4">
         <div class="container">
             <div class="block4_title">
                 <h2>
                     Наши клиенты
                 </h2>
             </div>
-            <div class="block4_row">
-                    <div class="block4_item">
+            <div class="block4__clients">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item1.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item2.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item3.gif" alt="">
                     </div>
-                    <div class="block4_item yu">
+                    <div class="block4__clients-item yu">
                         <img src="css/block4_item4.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item5.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item6.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item7.gif" alt="">
                     </div>
-                    <div class="block4_item">
+                    <div class="block4__clients-item">
                         <img src="css/block4_item8.gif" alt="">
                     </div>
             </div>
@@ -245,7 +247,7 @@
             <input type="text" value="Телефон">
             <br>
             <input type="text" value="Подробности" class="input3">
-            <div class="block6_btn">
+            <div class="block6__btn">
                <button class="center-block">
                    Заказать
                </button>
